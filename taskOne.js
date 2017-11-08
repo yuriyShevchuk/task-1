@@ -1,7 +1,7 @@
 function printNumbers(maxOutpNumber) {
   
   var printCount = 0, num = 0, result = "";
-  //checking if input is correct
+  //checking if input is correct and deleting all nonnumbers from string
   maxOutpNumber = maxOutpNumber.replace(/[^0-9]/g,"");
   if (+maxOutpNumber <= 0 || maxOutpNumber == "") {
     return "Wrong input!!! Nothing to show.";
