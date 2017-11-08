@@ -16,6 +16,6 @@ function printNumbers(maxOutpNumber) {
   }
   return result.substring(0,result.length - 2) + '.';
 }
-
+//хоть использование prompt(), alert() является плохим тоном, я их использую для простоты демонстрации
 var maxNum = prompt('Enter max numbers to be shown!', 'Put it here');
 alert(printNumbers(maxNum));
